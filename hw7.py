@@ -17,7 +17,8 @@ def binary_search(target, lst):
         print(f'Элемент не найден')
 
 
-binary_search(7, [1, 2, 3, 6, 7, 8, 9, 10])
+binary_search(9, [1, 2, 3, 6, 7, 8, 10])
+binary_search(3, [1, 3, 6, 7, 8, 9, 10])
 
 def bubble_sort(lst):
     for i in range(len(lst)):
@@ -26,4 +27,4 @@ def bubble_sort(lst):
                 lst[j-1], lst[j] = lst[j], lst[j-1]
     return lst
 
-# print(bubble_sort([5,54, 3, 5, 5, 7,3, 4]))
+print(bubble_sort([5,54, 3, 5, 5, 7,3, 4]))
