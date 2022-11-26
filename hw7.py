@@ -12,9 +12,9 @@ def binary_search(target, lst):
         else:
             l = m + 1
     if lst[l] == target:
-        print(f'Элемент найден под индексом {l}')
+        print(f'Цифра найдена под индексом {l}.')
     else:
-        print(f'Элемент не найден')
+        print(f'Цифра не найдена.')
 
 
 binary_search(9, [1, 2, 3, 6, 7, 8, 10])
